@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+    <!--Estilos css-->
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <!--Font awesone-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!--Booststrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+  </head>
+  <body>
+    <!--Inico de Header-->
+    <header>
+      <!--Logo y nombre de la Marca-->
+      <div class="logo">
+        <img src="../imagen/logo.schwarzkopf.png" alt="Logo de marca " />
+      </div>
+      <div class="titulo">
+        <p>Distribuidora Luna</p>
+      </div>
+
+      <!--Listado de Menu-->
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#">Producto</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="nosotros.html">Acerca de Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <!--Inicio de main -->
+
+    <main>
+      <!--Ubicacion del Local-->
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3122.2128515106847!2d-58.5012762!3d-34.58547009999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb785539f847f%3A0x5dc9bbcfd80de5e7!2sTerrada%204718%2C%20C1419%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1742405354282!5m2!1ses-419!2sar"
+          width="100%"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+     
+
+     
+      <!--Titulo de mas marcas y baner con fotos y movimiento-->
+      <h2>Conoce Todas nuestras Marcas y Procedimientos </h2>
+
+      <!--Barra de navegacion con Bootstraps-->
+
+     
+
+      <div class="container" style="padding: 50px;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Inico</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Marcas 
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/pages/producto.venta.schwarzkopf.html">Schwarzkopf</a></li>
+                    <li><a class="dropdown-item" href="/pages/producto.venta.karsse.html">Karseell</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/pages/producto.venta.html">Fidelite</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabilitado</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!--Inicio de  caja de descripcion con Boostrsp-->
+      <div
+        class="container"
+        style="
+          display: flex;
+          justify-content: space-around;
+          background-color: #f6f6f6;
+        "
+      >
+        <div class="card" style="width: 28rem; margin: 20px" cla>
+          <img
+            src="../imagen/logo.schwarzkopf.png"
+            class="card-img-top"
+            alt="Logo de schwarzkopf"
+          />
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 36px">Schwarzkopf</h5>
+            <p class="card-text">
+              IGORA es una línea profesional de coloración capilar de
+              Schwarzkopf Professional, reconocida por ofrecer resultados de
+              alta definición y una amplia gama de tonos.
+            </p>
+            <a
+              href="../pages/producto.venta.schwarzkopf.html"
+              class="btn btn-primary"
+              >Ir a Comprar</a
+            >
+          </div>
+        </div>
+
+        <div class="card" style="width: 28rem; margin: 20px">
+          <img
+            src="../imagen/logo.karssell.png"
+            class="card-img-top"
+            alt="Logo de karssell"
+          />
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 36px">karssell</h5>
+            <p class="card-text">
+              Karseell es una marca dedicada al cuidado capilar que se destaca
+              por sus tratamientos intensivos, como la mascarilla capilar con
+              colágeno. Este producto está formulado para reparar profundamente
+              el cabello seco y dañado, aportando hidratación, nutrición y
+              brillo.
+            </p>
+            <a
+              href="../pages/producto.venta.karsse.html"
+              class="btn btn-primary"
+              >Ir a Comprar</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 28rem; margin: 20px">
+          <img
+            src="../imagen/logo-fidelite -negro.png"
+            class="card-img-top"
+            alt="Logo de Meline"
+          />
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 36px">Fidelite</h5>
+            <p class="card-text">
+              Fidelité es una línea o marca de productos para el cuidado
+              capilar, combinados asociados a tratamientos que prometen nutrir,
+              hidratar y reparar el cabello dañado.
+            </p>
+            <a href="../pages/producto.venta.html" class="btn btn-primary"
+              >Ir a Comprar</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    
+
+    <!--Inicio de Pie de pagina Responsil-->
+    <footer>
+      <section class="seccion-1">
+        <div>
+          <h3>Contacto</h3>
+          <p>Lunaluciano81@hotmail.com</p>
+          <p> Tel : 1138161716</p>
+          <p><span>Direccion :</span> Terrada  4718</p>
+        </div>
+        <div>
+          <h3>Links</h3>
+          <a href="../index.html">Inicio</a>
+          <a href="producto.html">Producto</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="nosotros.html">Nosotros</a>
+        </div>
+        <div>
+          <h3>Redes sociales</h3>
+            <div class="redes-sociales">
+             <a href=""><i class="fa-solid fa-house"></i></a>
+             <a href=""><i class="fa-brands fa-facebook"></i></a>
+             <a href=""><i class="fa-brands fa-instagram"></i></a>
+             <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+      </section>
+
+      <section class="seccion-2">
+          <p>2025 @ Todos los derechos reservados</p>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+   
+  </body>
+</html>
