@@ -548,8 +548,18 @@ h2{
 }
 
 
+/*Estilo producto/Schwarkopf texto y barra*/
 
+.info-tintura{
+    padding:10px;
+    margin:10px;
+    text-align: center;
+    font-size: 25px
+}
 
+.contenedor-1{
+    margin: 10px;}
+    
 
 /* Medida para todas los HTML*/
 
