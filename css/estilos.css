@@ -559,7 +559,7 @@ h2{
 
 .contenedor-1{
     margin: 10px;}
-    
+
 
 /* Medida para todas los HTML*/
 
@@ -589,6 +589,15 @@ h2{
     .contenedor-grid img{
         margin:20px;
     }
+    .container{
+        flex-direction: column;
+        h5{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+       
 
     
  
